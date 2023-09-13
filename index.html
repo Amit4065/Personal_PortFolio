@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <!-- FONTAWESOME LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- BOOTSTRAP LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- MAIN CSS-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <h3 class="scroll_nav">Am<span>it</span></h3>
+            <div class="nav-item">
+                <i class="fa-solid fa-xmark nav-close-btn"></i>
+                <a href="#home" class="nav-a">Home</a>
+                <a href="#about" class="nav-a">About</a>
+                <a href="#skill" class="nav-a">Resume</a>
+                <a href="#portfolio" class="nav-a">Portfolio</a>
+                <a href="#contact" class="nav-a">Contact</a>
+            </div>
+            <i class="fa-solid fa-bars nav-menu-btn"></i>
+        </div>
+        <div class="home_section" id="home">
+            <h3 class="home_title">WELCOME TO MY WEBSITE</h3>
+            <div class="home_text">
+                <h1><span class="typing">I'm Front-End Devloper</span></h1>
+            </div>
+            <div class="home_icon">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <!-- <i class="fa-solid fa-arrow-down"></i> -->
+            </div>
+            <div class="home_button button">
+                <a href="#contact"><button class="btn btn1">Hire Me</button></a>
+            </div>
+            <div class="scroll-down">
+                <a href="#about"><i class="fa-solid fa-arrow-down"></i></a>
+            </div>
+        </div>
+        <hr>
+    </header>
+
+    <!-- ABOUT SECTION -->
+    <section class="about_wrapper" id="about">
+        <div class="about_heading">
+            <h1 class="random">About Me</h1>
+            <h2 class="short_line"></h2>
+        </div>
+        <div class="about_details">
+            <div class="about_left">
+                <img src="./IMAGES/PROFILE3.gif" alt="">
+            </div>
+            <div class="about_right">
+                <h3>I am <Span>Amit</Span></h3>
+                <p class="p">Front-End Devloper</p>
+                <p>Hello there! I'm Amit Yadav, a passionate front-end developer with a love for crafting engaging and user-friendly digital experiences. With a solid foundation in HTML, CSS, and JavaScript, I strive to bring creativity and functionality to every project I work on.</p>
+                <p>My journey in the world of web development began with a fascination for turning ideas into interactive websites. I specialize in translating design concepts into clean, responsive, and intuitive user interfaces. Through the thoughtful use of HTML, I structure content to create a strong foundation. CSS is my playground for design, where I enjoy crafting visually appealing layouts while ensuring seamless responsiveness across devices. JavaScript is my toolkit for adding that extra layer of interactivity and dynamism that makes websites come to life.</p>
+                <p>I'm always eager to collaborate with fellow developers, designers, and creative minds. Whether you're looking to bring your design to life or seeking to enhance your web project's user experience, I'm here to help.</p>
+                <div class="button">
+                    <button class="btn btn1">Download <span> MY Cv </span></button>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <!-- RESUME SECTION -->
+    <section class="skills_wrapper" id="skill">
+        <div class="skills_heading">
+            <h1 class="random">My Skills</h1>
+            <h2 class="short_line"></h2>
+        </div>
+        <div class="skills_details">
+            <div class="skills1">
+                <div class="skill">
+                    <div class="skill_name">HTML</div>
+                    <div class="skill_bar">
+                        <div class="skill_per" per="90%" style="max-width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill_name">CSS</div>
+                    <div class="skill_bar">
+                        <div class="skill_per" per="90%" style="max-width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill_name">bootstrap</div>
+                    <div class="skill_bar">
+                        <div class="skill_per" per="80%" style="max-width: 80%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills1">
+                <div class="skill">
+                    <div class="skill_name">Javascript</div>
+                    <div class="skill_bar">
+                        <div class="skill_per" per="90%" style="max-width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill_name">React js</div>
+                    <div class="skill_bar">
+                        <div class="skill_per" per="70%" style="max-width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill_name">SQL</div>
+                    <div class="skill_bar">
+                        <div class="skill_per" per="60%" style="max-width: 60%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+    <section class="portfolio_wrapper" id="portfolio">
+        <div class="portfolio_heading">
+            <h1 class="random">Recent Portfolio</h1>
+            <h2 class="short_line"></h2>
+        </div>
+        <div class="portfolio_details">
+            <div class="portfolio_img">
+                <div class="portfolio_container">
+                    <img class="img1" src="IMAGES/Screenshot (43).png" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-images overlay_inside"></i>
+                        <a class="overlay_inside" href="https://glistening-tulumba-031531.netlify.app/">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio_container">
+                    <img class="img1" src="IMAGES/Screenshot (39).png" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-images overlay_inside"></i>
+                        <a class="overlay_inside" href="https://amit4065.github.io/To_Do_List/">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio_container">
+                    <img class="img1" src="IMAGES/Screenshot (42).png" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-images overlay_inside"></i>
+                        <a class="overlay_inside" href="https://github.com/">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio_container">
+                    <img class="img1" src="IMAGES/Screenshot (40).png" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-images overlay_inside"></i>
+                        <a class="overlay_inside" href="https://github.com/">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio_container">
+                    <img class="img1" src="IMAGES/POKEDEX.jpeg" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-images overlay_inside"></i>
+                        <a class="overlay_inside" href="https://github.com/">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio_container">
+                    <img class="img1" src="IMAGES/DICE.jpeg" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-images overlay_inside"></i>
+                        <a class="overlay_inside" href="https://github.com/">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="button">
+                <button class="btn btn1">Previous <span> Project</span></button>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact_wrapper" id="contact">
+        <div class="contact_heading">
+            <h1 class="random">Get In Touch</h1>
+            <h2 class="short_line"></h2>
+        </div>
+        <div class="contact_details">
+            <form action="https://formsubmit.co/ef4221f5d659aace4138ab106da1dd83" method="POST" class="contact_animation">
+                <div class="first_input">
+                    <input type="text" name="name" id="name" placeholder="Name" required>
+                    <input type="text" name="subject" id="subject" placeholder="Subject" required>
+                </div>
+                <div class="second_input">
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </div>
+                <textarea id="message" cols="30" rows="5" placeholder="Message"></textarea>
+                <div class="button">
+                    <button type="submit" class="btn btn1">Send <span> Message</span></button>
+                </div>
+            </form>
+        </div>
+        <hr>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer>
+        <div class="footer_wrapper">
+            <div class="footer_icon random">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <!-- <i class="fa-solid fa-arrow-down"></i> -->
+            </div>
+            <p class="footer_last">Designed by Amit Yadav</p>
+        </div>
+
+        </div>
+    </footer>
+
+</body>
+<script src="https://unpkg.com/scrollreveal"></script>
+<!-- BOOTSTRAP JS LINK -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script src="script.js"></script>
+</html>
